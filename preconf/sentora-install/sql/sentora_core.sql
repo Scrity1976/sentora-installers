@@ -613,7 +613,7 @@ insert  into `x_settings`(`so_id_pk`,`so_name_vc`,`so_cleanname_vc`,`so_value_tx
 (22,'zip_exe','ZIP Exe','zip',NULL,'Path to the ZIP Executable','Sentora Config','true'),
 (24,'disable_hostsen','Disable auto HOSTS file entry','false','true|false','Disable Host Entries','Sentora Config','false'),
 (25,'latestzpversion','Cached version of latest sentora version','1.0.0',NULL,'This is used for caching the latest version of Sentora.','Sentora Config','false'),
-(26,'logmode','Debug logging mode','db','db|file|email','The default mode to log all errors in.','Sentora Config','true'),
+(26,'logmode','Debug logging mode','file','db|file|email','The default mode to log all errors in.','Sentora Config','true'),
 (27,'logfile','Sentora Log file','/var/sentora/logs/sentora.log',NULL,'If logging is set to \'file\' mode this is the path to the log file that is to be used by Sentora.','Sentora Config','true'),
 (28,'apikey','XMWS API Key','ee8795c8c53bfdb3b2cc595186b68912',NULL,'The secret API key for the server.','Sentora Config','false'),
 (29,'email_from_address','From Address','sentora@localhost',NULL,'The email address to appear in the From field of emails sent by Sentora.','Sentora Config','true'),
